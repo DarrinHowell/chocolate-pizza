@@ -1,40 +1,56 @@
-<!DOCTYPE html>
+<!DOCTYPE htmk>
 <html>
     <head>
-        <link rel="stylesheet" href="css/styles.css">
+        <title>Chocolate Pizza</title>
+        <link rel="stylesheet" href="css/styles.css"/>
+        <link rel="stylesheet" href="css/reset.css"/>
     </head>
-    <body>
-
-        <header>
-            <p>Section 1</p>
-
-        </header>
-
-        <main>
-            <section>
-                <p>Section 2</p>
-            </section>
-
-            <section>
-                    <p>Section 3</p>
-            </section>
-
-            <section>
-                    <p>Section 4</p>
-            </section>
-
-            <section>
-                    <p>Section 5</p>
-            </section>
-
-            <section>
-                    <p>Section 6</p>
-            </section>
-
-
-            
-        </main>
-
+ 
+</html>
+<body>
+        <header id="nav">
+                <img class="forkAndKnife" src="img/logo.png" alt="Fork and Knife Logo" />
+                <h1>Delecious<h1>
+                    <nav id="social">
+                      <ul id="icons">
+                        <li><a href="https://www.facebook.com"><img src="img/fb-icon.png" alt="facebook" /></a></li>
+                        <li><a href="https://www.twitter.com"><img src="img/twit-icon.png" alt="twitter"></a></li>
+                        <li><a href="https://www.plus.google.com"><img src="img/gp-icon.png" alt="googleplus"></a></li>
+                        <li><a href="https://www.instagram.com"><img src="img/insta-icon.png" alt="instagram"></a></li>
+                        <li><a href="https://www.flickr.com"><img src="img/flic-icon.png" alt="flickr"></a></li>
+                        <li><a href="https://www.pinterest.com"><img src="img/pint-icon.png" alt="pinterst"></a></li>
+                        <li><a href="#"><img src="img/rss-icon.png" alt="rss"></a></li>
+                        <li><a href="#"><img src="img/mail-icon.png" alt="mail"></a></li>
+                      </ul>
+                    </nav>
+                </header>
+        <!-- Solid line placed right below -->
+                <main id="main">
+        <section>
+            <h2>Chocolate Pizza</h2>
+            <h4>Posted on 15 DEC 2013 / DESSERTS</h4>
+        </section>
+        <section>
+            <img id="pizzapic" src="img/choco-pizza.png">
+        </section>
+        <section>
+          <ul id="ingredients1">
+            <li><input type="checkbox" onclick="return false">1 1/2 cups milk </input></li>
+            <li><input type="checkbox" onclick="return false">1/2 cup mascarpone</input></li>
+            <li><input type="checkbox" onclick="return false">1/2 tsp pink salk</input></li>
+            <li><input type="checkbox" onclick="return false">1lb Black Mission Figs</input></li>
+            <li><input type="checkbox" onclick="return false">1/2 cup brown sugar</input></li>
+            <li><input type="checkbox" onclick="return false">2-4 tbsp water</input></li>
+          </ul>
+          <ul id="ingredients2">
+            <li><input type="checkbox" onclick="return false">1 1/2 cups heavy cream</input></li>
+            <li id="strike"><input type="checkbox" onclick="return false" checked="checked">1/3 cup granulated sugar</input></li>
+            <li id="strike"><input type="checkbox" onclick="return false" checked="checked">2 egg yolks</input></li>
+            <li><input type="checkbox" onclick="return false">1 lemon, juiced</input></li>
+            <li><input type="checkbox" onclick="return false">2 tbsp butter</input></li>
+            <li><input type="checkbox" onclick="return false">1 cup honey roasted pecans, roughly chopped</input></li>
+          </ul>
+        </section>
         <footer>
             <div id="line-break-div">
                 <p>
@@ -43,16 +59,17 @@
                 <div id="logo-div">
                     <img src="img/logo.png"/>
                 </div>
-
             </div>
-
             <div id="copyright-div">
                 <p> Delicious at 2013 - All Rights Reserved.<br>
                 Proudly published with Ghost.</p>
             </div>
-
         </footer>
 
-    </body>
 
-</html>
+        </main>
+
+
+        <script></script>
+    </body>
+    </html>
