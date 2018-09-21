@@ -1,0 +1,33 @@
+footer{
+    align-content: center;
+    margin: 0px 20px 0px 20px;
+}
+
+#line-break-div {
+    align-content: center;
+    margin: 0 10% 0 10%
+}
+
+#logo-div {
+    margin: auto;
+    width: 5%;
+    height: 5%;
+    /*border: 3px solid green;*/
+    align-content: center;
+    position: relative;
+    bottom: 60px;
+    background: white;
+    padding: 2%;
+    
+}
+
+img {
+    margin: 0 auto;
+    width: 90%;
+    height: 90%;
+}
+
+#copyright-div {
+    text-align: center;
+    margin: 1px auto;
+}
